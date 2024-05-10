@@ -1,4 +1,8 @@
-
+/**
+ * This is the number guessing game,
+ * where the user select a mode they prefer to play on
+ * Points are calculated at the end of the game based on the number of attempts
+ */
 import java.util.Scanner;
 
 public class GuessingGame
@@ -49,7 +53,7 @@ public class GuessingGame
                 }
             }
             points = countAttempts * 50;
-            System.out.println("You have won the game, with: " + points +" points");  
+            System.out.println("You have won the game, with: " + points +" points and " + countAttempts +" attempts.");   
         }
         else if(option ==2)
         {
@@ -76,7 +80,7 @@ public class GuessingGame
                 }
             }
             points = countAttempts * 500;
-            System.out.println("You have won the game, with: " + points +" points");  
+            System.out.println("You have won the game, with: " + points +" points and " + countAttempts +" attempts.");   
         }
         else if(option==3)
         {
@@ -112,7 +116,7 @@ public class GuessingGame
                 }
             }
             points = countAttempts * 1000;
-            System.out.println("You have won the game, with: " + points +" points"); 
+            System.out.println("You have won the game, with: " + points +" points and " + countAttempts +" attempts."); 
         }
         scanner.close();
         System.out.println("Exiting.. GoodBye!");
