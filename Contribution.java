@@ -41,8 +41,6 @@ public class Contribution
                 
             }
         }
-
-
     }
     /**
      * This method reads the file 

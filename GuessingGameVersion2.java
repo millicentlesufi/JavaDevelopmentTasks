@@ -59,7 +59,8 @@ public class GuessingGameVersion2 {
                 System.out.println("That number is too low. Try again.");
             else
             {
-                System.out.println("Congratulations! " + guessNumber + " is the correct guess. You won the game with " + countAttempts * 100 + " points.");
+                System.out.pri73
+                ntln("Congratulations! " + guessNumber + " is the correct guess. You won the game with " + countAttempts * 100 + " points.");
                 break; // Exit the loop if guess is correct
             }
             if (countAttempts==maxAttempts)
